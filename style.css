@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #4ab1d2;
+    background-color: #4ab1d2;
+}
+.container > .parent{
+    width: 90%;
+    height: 450px;
+    border: 1px solid black;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5);
+    padding: 30px;
+   
+}
+.parent > div{
+    margin: auto;
+    width: 75px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: #4ab1d2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #2e3438;
+}
+#space{
+    width: 350px;
+    grid-column: 5 / span 4;
+   
+}
+#ent{
+    width: 150px;
+    grid-column: 11 / span 2;
+    
+}
+
+
